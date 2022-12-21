@@ -1,4 +1,3 @@
-
 def count_for_backpack(bacpack_table):
     n = len(bacpack_table)
     part1 = bacpack_table[: n//2]
