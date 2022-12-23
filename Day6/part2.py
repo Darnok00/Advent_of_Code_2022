@@ -1,7 +1,7 @@
 def check_repetition(chars):
     chars = ''.join(sorted(chars))
     for i in range(13):
-        if chars[i] == chars[ i +1]:
+        if chars[i] == chars[i + 1]:
             return False
     return True
 
