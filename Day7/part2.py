@@ -77,6 +77,7 @@ def create_size_array(parent, array, size):
     if parent.name == '/':
         return array
 
+
 filename = "text.txt"
 
 with open(filename) as file:
@@ -84,6 +85,5 @@ with open(filename) as file:
 
 parent = processing_lines(lines)
 parent.size = compare_size(parent)
-print(parent.size)
 print(min(create_size_array(parent, [], find_size(parent))))
 
